@@ -2,18 +2,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <artifactId>mall-manager</artifactId>
-        <groupId>com.cy.learn</groupId>
+        <groupId>com.cy.mall</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>mall-manager-web</artifactId>
     <packaging>war</packaging>
-    <name>mall-manager-web Maven Webapp</name>
+    <name>mall-manager-web</name>
     <url>http://maven.apache.org</url>
     <!-- 依赖管理 -->
     <dependencies>
         <dependency>
-            <groupId>com.cy.learn</groupId>
+            <groupId>com.cy.mall</groupId>
             <artifactId>mall-manager-service</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
