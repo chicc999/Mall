@@ -1,5 +1,6 @@
 package com.cy.mall.service;
 
+import com.cy.mall.common.pojo.EUDataGridResult;
 import com.cy.mall.pojo.TbItem;
 import org.springframework.stereotype.Service;
 
@@ -9,4 +10,6 @@ import org.springframework.stereotype.Service;
 
 public interface ItemServiceI {
 	TbItem getItemById(long itemId);
+
+	EUDataGridResult getItemList(long page,long rows);
 }
