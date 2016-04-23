@@ -36,6 +36,7 @@ public class ItemServiceImpl implements ItemServiceI {
         List<TbItem> list = itemMapper.selectByExample(example);
         // 创建一个返回值对象
         EUDataGridResult result = new EUDataGridResult();
+
         result.setRows(list);
         // 取记录总条数
         PageInfo<TbItem> pageInfo = new PageInfo<>(list);
