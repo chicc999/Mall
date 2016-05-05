@@ -4,6 +4,7 @@ import com.cy.mall.common.utils.FtpUtil;
 import com.cy.mall.service.PictureServiceI;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.HashMap;
@@ -13,6 +14,7 @@ import java.util.UUID;
 /**
  * Created by cy on 2016/5/4.
  */
+@Service
 public class PictureServiceImpl implements PictureServiceI{
 	@Value("${FTP_ADDRESS}")
 	private String FTP_ADDRESS;
